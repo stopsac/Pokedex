@@ -12,6 +12,7 @@
 		4005E12E1DFFB57000AE9723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4005E12C1DFFB57000AE9723 /* Main.storyboard */; };
 		4005E1301DFFB57000AE9723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4005E12F1DFFB57000AE9723 /* Assets.xcassets */; };
 		4005E1331DFFB57000AE9723 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4005E1311DFFB57000AE9723 /* LaunchScreen.storyboard */; };
+		40DA3F161DFFBB9F003325A6 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 40DA3F151DFFBB9F003325A6 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4005E12F1DFFB57000AE9723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4005E1321DFFB57000AE9723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4005E1341DFFB57000AE9723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40DA3F151DFFBB9F003325A6 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		4005E1271DFFB57000AE9723 /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				40DA3F141DFFBB21003325A6 /* Resources */,
 				4005E1281DFFB57000AE9723 /* AppDelegate.swift */,
 				4005E12A1DFFB57000AE9723 /* ViewController.swift */,
 				4005E12C1DFFB57000AE9723 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				4005E1341DFFB57000AE9723 /* Info.plist */,
 			);
 			path = Pokedex;
+			sourceTree = "<group>";
+		};
+		40DA3F141DFFBB21003325A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				40DA3F151DFFBB9F003325A6 /* pokemon.csv */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			files = (
 				4005E1331DFFB57000AE9723 /* LaunchScreen.storyboard in Resources */,
 				4005E1301DFFB57000AE9723 /* Assets.xcassets in Resources */,
+				40DA3F161DFFBB9F003325A6 /* pokemon.csv in Resources */,
 				4005E12E1DFFB57000AE9723 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +312,7 @@
 				4005E1391DFFB57000AE9723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
